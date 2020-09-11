@@ -1,8 +1,9 @@
-class SignalQuestion {
+class SignalQuestion extends TreeNode {
 
     String question;
     String elaboration;
     String[] responseQuestions;
+
 
     String chosenResponse;
 
