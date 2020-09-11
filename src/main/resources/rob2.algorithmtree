@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<domains>
+    <domain>
+        <number>1</number>
+        <name>Randomization Process</name>
+        <questions>
+            <question>
+                <n>1.1</n>
+                <q>Was the allocation sequence random?</q>
+                <e>Answer ‘Yes’ if a random component was used in the sequence generation process. Examples include
+                    computer-generated random numbers; reference to a random number table; coin tossing; shuffling cards
+                    or envelopes; throwing dice; or drawing lots. Minimization is generally implemented with a random
+                    element (at least when the scores are equal), so an allocation sequence that is generated using
+                    minimization should generally be considered to be random.
+                    Answer ‘No’ if no random element was used in generating the allocation sequence or the sequence is
+                    predictable. Examples include alternation; methods based on dates (of birth or admission); patient
+                    record numbers; allocation decisions made by clinicians or participants; allocation based on the
+                    availability of the intervention; or any other systematic or haphazard method.
+                    Answer ‘No information’ if the only information about randomization methods is a statement that the
+                    study is randomized.
+                    In some situations a judgement may be made to answer ‘Probably no’ or ‘Probably yes’. For example, , in
+                    the context of a large trial run by an experienced clinical trials unit, absence of specific information about
+                    generation of the randomization sequence, in a paper published in a journal with rigorously enforced word
+                    count limits, is likely to result in a response of ‘Probably yes’ rather than ‘No information’. Alternatively, if
+                    other (contemporary) trials by the same investigator team have clearly used non-random sequences, it
+                    might be reasonable to assume that the current study was done using similar methods.</e>
+                <options>
+                    <option>Y</option>
+                    <option>PY</option>
+                    <option>PN</option>
+                    <option>N</option>
+                    <option>NI</option>
+                </options>
+            </question>
+            <question>
+                <n>1.2</n>
+                <q>Was the allocation sequence conealed until participants were enrolled and assigned to interventions?</q>
+                <e>Answer ‘Yes’ if the trial used any form of remote or centrally administered method to allocate
+                    interventions to participants, where the process of allocation is controlled by an external unit or
+                    organization, independent of the enrolment personnel (e.g. independent central pharmacy, telephone or
+                    internet-based randomization service providers).
+                    Answer ‘Yes’ if envelopes or drug containers were used appropriately. Envelopes should be opaque,
+                    sequentially numbered, sealed with a tamper-proof seal and opened only after the envelope has been
+                    irreversibly assigned to the participant. Drug containers should be sequentially numbered and of
+                    identical appearance, and dispensed or administered only after they have been irreversibly assigned to
+                    the participant. This level of detail is rarely provided in reports, and a judgement may be required to
+                    justify an answer of ‘Probably yes’ or ‘Probably no’.
+                    Answer ‘No’ if there is reason to suspect that the enrolling investigator or the participant had knowledge
+                    of the forthcoming allocation.</e>
+                <options>
+                    <option>Y</option>
+                    <option>PY</option>
+                    <option>PN</option>
+                    <option>N</option>
+                    <option>NI</option>
+                </options>
+            </question>
+            <question>
+                <n>1.3</n>
+                <q>Did baseline differences between intervention groups suggest a problem with the randomization process?</q>
+                <e>Answer ‘Yes’ if the trial used any form of remote or centrally administered method to allocate
+                    interventions to participants, where the process of allocation is controlled by an external unit or
+                    organization, independent of the enrolment personnel (e.g. independent central pharmacy, telephone or
+                    internet-based randomization service providers).
+                    Answer ‘Yes’ if envelopes or drug containers were used appropriately. Envelopes should be opaque,
+                    sequentially numbered, sealed with a tamper-proof seal and opened only after the envelope has been
+                    irreversibly assigned to the participant. Drug containers should be sequentially numbered and of
+                    identical appearance, and dispensed or administered only after they have been irreversibly assigned to
+                    the participant. This level of detail is rarely provided in reports, and a judgement may be required to
+                    justify an answer of ‘Probably yes’ or ‘Probably no’.
+                    Answer ‘No’ if there is reason to suspect that the enrolling investigator or the participant had knowledge
+                    of the forthcoming allocation.</e>
+                <options>
+                    <option>Y</option>
+                    <option>PY</option>
+                    <option>PN</option>
+                    <option>N</option>
+                    <option>NI</option>
+                </options>
+            </question>
+        </questions>
+    </domain>
+
+
+</domains>
