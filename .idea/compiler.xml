@@ -9,5 +9,8 @@
         <module name="RoB 2 Rating Tool" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="RoB 2 Rating Tool" target="14" />
+    </bytecodeTargetLevel>
   </component>
 </project>
